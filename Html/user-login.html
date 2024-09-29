@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Buddy App</title>
+    <link rel="stylesheet" href="../Css/user-login.css"> <!-- Corrected path -->
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Sports Buddy</h1>
+        
+        <!-- Login Form -->
+        <form id="login-form" class="form">
+            <h2>Login</h2>
+            <input type="email" id="login-email" placeholder="Email" required>
+            <input type="password" id="login-password" placeholder="Password" required>
+            <button type="submit">Login</button>
+            <p>Don't have an account? <button type="button" id="toggle-register">Register Here</button></p>
+        </form>
+
+        <!-- Register Form -->
+        <form id="register-form" class="form hidden">
+            <h2>Register</h2>
+            <input type="text" id="register-name" placeholder="Name" required>
+            <input type="email" id="register-email" placeholder="Email" required>
+            <input type="password" id="register-password" placeholder="Password" required>
+            <button type="submit">Register</button>
+            <p>Already have an account? <button type="button" id="toggle-login">Login Here</button></p>
+        </form>
+    </div>
+
+</body>
+<script type="module" src="../Js/firebase_config.js"></script> <!-- Corrected path -->
+<script type="module" src="../Js/user-login.js"></script> <!-- Corrected path -->
+</html>

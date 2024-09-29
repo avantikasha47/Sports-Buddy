@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Action Page</title>
+  <link rel="stylesheet" href="../Css/admin-action.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Admin Actions</h1>
+    
+    <!-- Area Section -->
+    <div class="category">
+      <h3>Add Area</h3>
+      <button id="addAreaBtn">Add Area</button>
+    </div>
+
+    <!-- City Section -->
+    <div class="category">
+      <h3>Add City</h3>
+      <button id="addCityBtn">Add City</button>
+    </div>
+
+    <!-- Sports Category Section -->
+    <div class="category">
+      <h3>Add Sports Category</h3>
+      <button id="addSportsCategoryBtn">Add Sports Category</button>
+    </div>
+
+    <div class="view-all">
+        <h3>View All Data</h3>
+        <button id="viewAllBtn">View All</button>
+      </div>
+
+    <div id="formContainer">
+      <!-- Form content will appear here dynamically -->
+    </div>
+  </div>
+</body>
+<script type="module" src="../Js/firebase_config.js"></script>
+<script type="module" src="../Js/admin-action.js"></script>
+</html>

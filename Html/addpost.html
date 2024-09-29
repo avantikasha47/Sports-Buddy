@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/addpost.css">
+    <title>User Posts</title>
+</head>
+<body>
+    <!-- Modal for Adding Post -->
+    <div id="addPostModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2>Add Post</h2>
+            <form id="postForm">
+                <label for="eventName">Event Name:</label>
+                <input type="text" id="eventName" required>
+
+                <label for="area">Area:</label>
+                <select id="area" required></select>
+
+                <label for="sportCategory">Sport Category:</label>
+                <select id="sportCategory" required></select>
+
+                <label for="city">City:</label>
+                <select id="city" required></select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+<script type="module" src="../Js/firebase_config.js"></script>
+<script type="module" src="../Js/addpost.js"></script>
+
+</html>
