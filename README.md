@@ -25,7 +25,7 @@ Backend: Firebase (Firestore for the database)
 Hosting: Firebase Hosting
 
 Live Demo
-You can view the live application sport-buddy-55258.firebaseapp.com
+You can view the live application https://sport-buddy-55258.firebaseapp.com/
 
 Installation Instructions
 
